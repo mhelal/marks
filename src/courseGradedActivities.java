@@ -211,6 +211,7 @@ public class courseGradedActivities {
 						if (outputFile.trim().toLowerCase().indexOf(cTokens[1].trim().toLowerCase()) >= 0 )
 							gs.mark += Double.parseDouble(cTokens[2].trim()) /100.00 * mark;		
 					}
+					// (attention) patern matching not working
 					if (cTokens[0].equals("matches")) {
 							//Pattern p = Pattern.compile(cTokens[1]);
 							//Matcher m = p.matcher(outputFile);

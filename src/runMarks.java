@@ -95,6 +95,7 @@ public class runMarks {
 		System.out.println("Course\tFile Name\t Student ID\tSubmission\tDate\tDays Diff");
 		subs.listSubmissions(submissionsFolder);
 		// Save Results in tab delimited file
+		// (attention) some assignments blocks execution and it never reaches saving now.
 		subs.saveMarks(coursesFile, submissionsFolder);
 	}
 

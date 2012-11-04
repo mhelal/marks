@@ -229,7 +229,7 @@ public class Submissions {
 			        		//String sDate = DateFunctions.getCalendarString(submissions[i].lastModified());
 			        		gs.daysDelay = DateFunctions.daysDifference(g.getdeadline().getTime(), submissions[i].lastModified());
 			        		if (g.isProgrammingActivity()) {
-			        			// The multithreading causes SysCommandExecutor to confuse the current execution directory, will seek other alternatives later
+			        			// (attention) The multithreading causes SysCommandExecutor to confuse the current execution directory, will seek other alternatives later
 			        	        //Thread t = new Thread(new processSubmission(gs, g));
 			        			//t.start();
 			        			//threads.add(t);
